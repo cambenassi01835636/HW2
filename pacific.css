@@ -1,0 +1,124 @@
+/*Weird Scroll with bullet points, nav bar issues */
+
+header,
+hgroup,
+nav,
+footer,
+figure,
+figcaption,
+aside,
+section,
+article {
+	display: block;
+}
+
+header {
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	color: white;
+	background-color: #070731;
+
+	clear:both;
+}
+
+body{
+	background-color: #00569f;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(ptrbackground.jpg);
+
+	width: 80%;
+	padding-bottom: 15px;
+	min-width: 600px;
+	margin: auto;
+}
+
+#wrapper {
+	background-color: white;
+	margin: auto;
+	overflow: hidden;
+}
+
+nav {
+	background-color: #82c8f3;
+	height: 42vh;
+	
+	float: left;
+	flex:5;
+	
+}
+
+nav ul {
+	list-style: none;
+	font-size: 1.2em;
+	margin: auto;
+	padding: 20px 75px 0px 15px;
+}
+
+nav a {
+	font-family: Georgia, "Times New Roman", serif;
+	color: #11244e;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+img {
+	float: left;
+	display: inline;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+h2 {
+	color: #3399CC;
+
+	margin-left: auto;
+	display: flex;
+	padding-left: 30px;
+}
+
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#content p {
+	display: inline;
+}
+
+#content li {
+	list-style-image: url(marker.gif);
+}
+
+
+.resort {
+	color: teal;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+dt {
+	color: #000033;
+}
+
+footer {
+	display: inline-block;
+
+	padding-top: 50px;
+	padding-left: 15px;
+
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", serif;
+}
